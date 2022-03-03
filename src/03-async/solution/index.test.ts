@@ -3,7 +3,7 @@
 import { describe, it, expect, jest } from '@jest/globals';
 import * as ApiService from '.';
 
-describe('Async tests', () => {
+describe('Async', () => {
 	it('should resolve async call', async () => {
 		const mock = jest.spyOn(ApiService, 'fetchYear');
 		const year = await ApiService.fetchYear();

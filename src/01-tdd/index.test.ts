@@ -1,7 +1,7 @@
 import { describe, it, expect } from '@jest/globals';
 import ArrayList from '.';
 
-describe('Array list', () => {
+describe('TDD', () => {
 	it.todo('should create array list');
 
 	it.todo('should have 0 length');

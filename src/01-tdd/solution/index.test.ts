@@ -1,7 +1,7 @@
 import { describe, it, expect } from '@jest/globals';
 import ArrayList from '.';
 
-describe('Array list', () => {
+describe('TDD', () => {
 	it('should create array list', () => {
 		const arrayList = new ArrayList();
 

@@ -3,7 +3,7 @@
 import { describe, it, expect, jest } from '@jest/globals';
 import * as ApiService from '.';
 
-describe('Async tests', () => {
+describe('Async', () => {
 	it.todo('should resolve async call');
 
 	it.todo('should check current year');
